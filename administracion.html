@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Administrativa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión Administrativa</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="usuarios.html">Gestión de Usuarios</a></li>
+                <li><a href="academica.html">Gestión Académica</a></li>
+                <li><a href="pagos.html">Gestión de Pagos</a></li>
+                <li><a href="administracion.html">Gestión Administrativa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Creación de Cursos</h2>
+            <form action="#" method="post">
+                <label for="course-name">Nombre del Curso:</label>
+                <input type="text" id="course-name" name="course-name" required>
+
+                <label for="duration">Duración (meses):</label>
+                <input type="number" id="duration" name="duration" required>
+
+                <label for="slots">Cupos Disponibles:</label>
+                <input type="number" id="slots" name="slots" required>
+
+                <button type="submit">Crear/Editar Curso</button>
+            </form>
+        </section>
+        <section>
+            <h2>Reportes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Reporte</th>
+                        <th>Fecha</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Inscripciones Actuales</td>
+                        <td>2024-11-27</td>
+                    </tr>
+                    <tr>
+                        <td>Pagos Realizados</td>
+                        <td>2024-11-27</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EduEnroll. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión Académica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gestión Académica</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="usuarios.html">Gestión de Usuarios</a></li>
+                <li><a href="academica.html">Gestión Académica</a></li>
+                <li><a href="pagos.html">Gestión de Pagos</a></li>
+                <li><a href="administracion.html">Gestión Administrativa</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Catálogo de Cursos</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Duración</th>
+                        <th>Cupos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Diseño Gráfico</td>
+                        <td>6 meses</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>Mercadotecnia</td>
+                        <td>4 meses</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Sistemas Informáticos</td>
+                        <td>12 meses</td>
+                        <td>10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Inscripción</h2>
+            <form action="#" method="post">
+                <label for="course">Selecciona un Curso:</label>
+                <select id="course" name="course">
+                    <option value="diseño">Diseño Gráfico</option>
+                    <option value="mercadotecnia">Mercadotecnia</option>
+                    <option value="sistemas">Sistemas Informáticos</option>
+                </select>
+                <button type="submit">Inscribirse</button>
+            </form>
+        </section>
+        <section>
+            <h2>Historial Académico</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Materia</th>
+                        <th>Calificación</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Programación</td>
+                        <td>90</td>
+                        <td>Aprobado</td>
+                    </tr>
+                    <tr>
+                        <td>Marketing</td>
+                        <td>75</td>
+                        <td>Aprobado</td>
+                    </tr>
+                    <tr>
+                        <td>Redes</td>
+                        <td>68</td>
+                        <td>Reprobado</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EduEnroll. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
